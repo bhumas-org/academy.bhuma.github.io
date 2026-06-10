@@ -29,7 +29,7 @@ fetch("data/academies.json")
 
                 <a
                 class="btn"
-                href="https://wa.me/91YOURNUMBER?text=Interested%20in%20${academy.name}">
+                href="https://wa.me/918050385987?text=Interested%20in%20${academy.name}">
                 WhatsApp
                 </a>
 
