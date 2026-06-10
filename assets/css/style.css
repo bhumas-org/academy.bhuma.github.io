@@ -217,6 +217,55 @@ nav a {
 
     color: #64748b;
 }
+/* Contact Page */
+
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+}
+
+.contact-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.contact-card h2 {
+    margin-bottom: 20px;
+}
+
+.contact-card p {
+    margin-bottom: 15px;
+}
+
+.btn-contact {
+    display: inline-block;
+    margin-top: 15px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-contact:hover {
+    opacity: 0.9;
+}
+
+@media(max-width:768px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
 
 footer {
 
