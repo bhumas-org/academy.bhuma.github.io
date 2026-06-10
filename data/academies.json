@@ -1,1 +1,22 @@
-[{"name":"Karnataka Cricket Academy"},{"name":"Blue Wave Swimming Academy"}]
+[
+  {
+    "name": "Karnataka Cricket Academy",
+    "category": "Cricket",
+    "area": "Whitefield"
+  },
+  {
+    "name": "Blue Wave Swimming Academy",
+    "category": "Swimming",
+    "area": "Marathahalli"
+  },
+  {
+    "name": "Melody Music School",
+    "category": "Music",
+    "area": "Indiranagar"
+  },
+  {
+    "name": "Star Dance Studio",
+    "category": "Dance",
+    "area": "HSR Layout"
+  }
+]
