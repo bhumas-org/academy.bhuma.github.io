@@ -1,1 +1,1 @@
-
+fetch('data/academies.json').then(r=>r.json()).then(d=>{let e=document.getElementById('academies');if(e)e.innerHTML=d.map(x=>'<div class=card><h3>'+x.name+'</h3></div>').join('')})
